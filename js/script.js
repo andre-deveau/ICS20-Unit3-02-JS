@@ -25,7 +25,7 @@ function enterClicked() {
   const pyramidheight = paresInt(document.getElementById("pyramid-heigt").value)
 
   //process
-  const volume = ((baselength * widthbase * pyramidheight) / 3)
+  const volume = (baselength * widthbase * pyramidheight) / 3
 
   //output
   document.getElementById("volume-of-right-rectangular-pyramid").innerHTML =
