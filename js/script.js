@@ -21,6 +21,8 @@ if (navigator.serviceWorker) {
 function enterClicked() {
   //input
   const lengthbase = parseInt(document.getElementById("base-length").value)
+  const basewidth = parseInt(document.getElementById("base-width").value)
+  const pyramidheight = parseInt(document.getElementById("pyramid-height").value)
   const basewidth = paresInt(document.getElementById("base-width").value)
   const pyramidheight = paresInt(
     document.getElementById("pyramid-height").value
