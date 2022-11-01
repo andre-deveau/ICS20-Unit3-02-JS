@@ -22,7 +22,9 @@ function enterClicked() {
   //input
   const lengthbase = parseInt(document.getElementById("base-length").value)
   const basewidth = parseInt(document.getElementById("base-width").value)
-  const pyramidheight = parseInt(document.getElementById("pyramid-height").value)
+  const pyramidheight = parseInt(
+    document.getElementById("pyramid-height").value
+  )
 
   //process
   const volume = (baselength * widthbase * pyramidheight) / 3
