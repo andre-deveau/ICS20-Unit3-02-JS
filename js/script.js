@@ -27,7 +27,7 @@ function enterClicked() {
   )
 
   //process
-  const volume = (baselength * widthbase * pyramidheight) / 3
+  const volume = (lengthbase * basewidth * pyramidheight) / 3
 
   //output
   document.getElementById("volume-of-right-rectangular-pyramid").innerHTML =
